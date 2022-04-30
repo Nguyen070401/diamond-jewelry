@@ -1,14 +1,27 @@
-import styles from './Product.module.css';
+import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons';
+import React from 'react'
+import "./Product.css"
+const Product = ({item}) => {
+  return (
+    <div className="Container-Product">
+    
+      <img className="Image-Product" alt="" src={item.img}/>
+      <div className="Info-Product">
+          <div className="Icon-Product">
+            <ShoppingCartOutlined/>
+          </div>
 
-export default function Product(props) {
-    // format currency
-    let formattedPrice = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(props.price);
+          <div className="Icon-Product">
+            <SearchOutlined/>
+          </div>
 
-    return (
-            <div className={styles.product_card}>
-                <img className={styles.product_image} src={ props.image } alt={ props.name } />
-                <p className={styles.product_name}>{ props.name }</p>
-                <p className={styles.product_price}>{ formattedPrice }</p>
-            </div>
-    );
+          <div className="Icon-Product">
+            <FavoriteBorderOutlined/>
+          </div>
+
+      </div>
+    </div>
+  )
 }
+
+export default Product
