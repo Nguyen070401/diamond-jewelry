@@ -4,17 +4,12 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
     return (
         <nav className={styles.menu_container}>
-            <input type="checkbox" aria-label="Toggle menu" />
-            <span></span>
-            <span></span>
-            <span></span>
-
-            <Link to="/" className={styles.menu_logo}>
-                <img src={ require("../assets/images/logoipsum-logo-52.png") } alt="logo" />
+            <Link to="/" className={`${styles.menu_logo} ${styles.left_wrapper}`}>
+                <img src={ require("../assets/images/logo.png") } alt="logo" />
             </Link>
 
             <div className={styles.menu}>
-                <ul>
+                <ul className={styles.center_wrapper}>
                     <li>
                         <Link to="/">
                             Trang chủ
@@ -41,7 +36,10 @@ export default function Navbar() {
                         </Link>
                     </li>
                 </ul>
-                <ul>
+            </div>
+            
+            <div className={styles.menu}>
+                <ul className={styles.right_wrapper}>
                     <li>
                         <form action="">
                             <input type="search" placeholder="Search here ..."></input>

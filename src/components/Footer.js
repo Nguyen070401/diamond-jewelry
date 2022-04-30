@@ -6,7 +6,7 @@ export default function Footer() {
         <div className={ styles.footer }>
             <div className={ styles.top }>
                 <div className={ styles.basic_info }>
-                    <img src={ require("../assets/images/logoipsum-logo-52.png") } alt="logo" />
+                    <img src={ require("../assets/images/logo.png") } alt="logo" />
                     <p>© 2017 Công Ty Cổ Phần Vàng Bạc Đá Quý Phú Nhuận</p>
                     <p>170E Phan Đăng Lưu, P.3, Q.Phú Nhuận, TP.Hồ Chí Minh</p>
                 </div>
