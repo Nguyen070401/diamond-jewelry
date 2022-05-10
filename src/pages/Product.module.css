@@ -1,0 +1,91 @@
+.Container {
+}
+.WrapperContainer {
+	display: flex;
+}
+
+.Wrapper {
+	padding: 50px;
+	display: flex;
+}
+
+.ImgContainer {
+	flex: 1;
+}
+
+.Image {
+	width: 85%;
+	height: 90%;
+	object-fit: cover;
+	box-shadow: 5px 5px 5px 3px #aaa;
+}
+
+.InfoContainer {
+	flex: 1;
+}
+
+.Title {
+	font-weight: 200;
+	font-weight: bold;
+	opacity: 80%;
+	font-size: 45px;
+	margin-bottom: 15px;
+	margin-left: -2px;
+}
+
+.Detail {
+	font-size: 25px;
+	margin: 5px 4px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.Desc {
+	margin: 10px 4px;
+	font-size: 18px;
+	opacity: 80%;
+}
+
+.Price {
+	font-weight: 500;
+	font-size: 28px;
+	margin: 5px 4px;
+	color: #59a8a9;
+	opacity: 90%;
+}
+
+.AddContainer {
+	width: 37%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.AmountContainer {
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+}
+
+.Amount {
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #59a8a9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 5px;
+}
+
+.Button {
+	font-size: 12px;
+	padding: 8px;
+	border: 2px solid #59a8a9;
+	background-color: white;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+Button:hover {
+	background-color: #f8f4f4;
+}

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './HomePage.module.css';
-import Product from '../components/Product.js';
+import Products from '../components/Products.js';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -61,11 +61,7 @@ export default function HomePage() {
                 <h1>Các Sản Phẩm <span>Nổi Bật</span></h1>
                 <img src={require("../assets/images/diamond.png")} alt="diamond" />
                 <div className={styles.product_container}>
-                    {
-                        products.map(product => 
-                            <Product name={product.name} price={product.price} image={product.image}></Product>
-                        )
-                    }
+                    <Products></Products>
                 </div>
             </section>
 

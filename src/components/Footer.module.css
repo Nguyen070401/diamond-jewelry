@@ -1,74 +1,73 @@
 .top {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 150px;
-    flex-basis: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 150px;
+	flex-basis: auto;
 }
 
 .top ul {
-    padding: 0;
-    list-style: none;
+	padding: 0;
+	list-style: none;
 }
 
 .top li a {
-    text-decoration: none;
-    color: #AAA9A9;
-    padding-left: 10px;
+	text-decoration: none;
+	color: #aaa9a9;
+	padding-left: 10px;
 }
 
 .basic_info p {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 .about li::before {
-    content: "→";
+	content: "→";
 }
 
 .services li::before {
-    content: "→";
+	content: "→";
 }
 
 .connect {
-    max-width: 300px;
+	max-width: 300px;
 }
 
 .connect li {
-    display: inline;
+	display: inline;
 }
 
-
 .connect p {
-    color: #AAA9A9;
+	color: #aaa9a9;
 }
 
 .connect .tel {
-    font-weight: bold;
-    margin-right: 30px;
+	font-weight: bold;
+	margin-right: 30px;
 }
 
 .connect .email {
-    color: #688095;
+	color: #688095;
 }
 
 .bottom {
-    background-color: #46cfbe;
-    color: white;
-    display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+	background-color: #46cfbe;
+	color: white;
+	display: flex;
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
 .bottom ul {
-    list-style: none;
-    margin-left: auto;
+	list-style: none;
+	margin-left: auto;
 }
 
 .bottom li {
-    display: inline;
-    margin-left: 30px;
+	display: inline;
+	margin-left: 30px;
 }
 
 .bottom li a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }

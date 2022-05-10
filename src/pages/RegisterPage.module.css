@@ -9,6 +9,7 @@
     text-align: center;
     height: calc(100vh - 100px);
 }
+
 .banner {
     width: 50%;
     height: 60%;
@@ -19,6 +20,14 @@
     align-items:center;
 
     
+}
+
+.back_button {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
 }
 
 .wrapper {

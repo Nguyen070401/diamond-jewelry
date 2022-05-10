@@ -26,17 +26,17 @@ export default function Header() {
                 </ul>
                 <ul className={styles.right}>
                     {
-                        localStorage.getItem("access_token") ? 
-                        <li>
-                            <ion-icon name="log-in-outline"></ion-icon>
-                            <Link to="/" onClick={handleLogout}>Đăng xuất</Link>
-                        </li> : 
-                        <li>
-                            <ion-icon name="log-in-outline"></ion-icon>
-                            <Link to="/dang-nhap">Đăng nhập</Link>
-                        </li>
+                        localStorage.getItem("access_token") ?
+                            <li>
+                                <ion-icon name="log-in-outline"></ion-icon>
+                                <Link to="/" onClick={handleLogout}>Đăng xuất</Link>
+                            </li> :
+                            <li>
+                                <ion-icon name="log-in-outline"></ion-icon>
+                                <Link to="/dang-nhap">Đăng nhập</Link>
+                            </li>
                     }
-                    
+
                     <li>
                         <ion-icon name="person-outline"></ion-icon>
                         <Link to="/tai-khoan">Tài khoản</Link>
