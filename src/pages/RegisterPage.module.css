@@ -1,9 +1,33 @@
 .container {
-    background: url('../assets/images/login-background.png');
+    background:url('../assets/images/login-background.png');
     background-size: cover;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row-reverse;
+    justify-content: space-around;
     text-align: center;
     height: calc(100vh - 100px);
+}
+
+.banner {
+    width: 50%;
+    height: 60%;
+    background:url('../assets/images/signuppage.jpg') no-repeat;
+    background-size:cover;
+    text-align: center;
+    margin: auto 20px;
+    align-items:center;
+
+    
+}
+
+.back_button {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
 }
 
 .wrapper {
@@ -11,11 +35,11 @@
     border-radius: 25px;
     background-color: #CEE7E5;
     display: inline-block;
-    padding: 50px 70px 100px;
+    padding: 50px 50px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    width: 300px;
+    width: 400px;
 }
 
 .container form h1 {
@@ -40,14 +64,9 @@
 
 .forgot_password {
     float: right;
-    color: #0C0B0B;
 }
 
-.register {
-    color: #F14336;
-}
-
-.login_button {
+.signup_button {
     color: white;
     background-color: #6CB0C5;
     border: none;
@@ -56,7 +75,7 @@
     padding: 10px;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 10px;
+    margin: 20px 0px;
 }
 
 .third_party_wrapper {

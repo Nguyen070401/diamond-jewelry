@@ -54,8 +54,7 @@
     background-color: #46cfbe;
     color: white;
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 500px;
 }
 
 .bottom ul {

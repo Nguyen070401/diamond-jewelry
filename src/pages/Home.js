@@ -13,13 +13,13 @@ import Slider from '../components/Slider'
 const Home = () => {
   return (
     <div>
-      <Announcement/>
-      <Navbar/>
-      <Slider/>
-      <Categories/>
-      <Products/>
-      <Newsletter/>
-      <Footer/>
+      <Announcement />
+      <Navbar />
+      <Slider />
+      <Categories />
+      <Products />
+      <Newsletter />
+      <Footer />
     </div>
   )
 }
