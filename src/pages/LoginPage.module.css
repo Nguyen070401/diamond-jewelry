@@ -40,6 +40,11 @@
 
 .forgot_password {
     float: right;
+    color: #0C0B0B;
+}
+
+.register {
+    color: #F14336;
 }
 
 .login_button {

@@ -16,19 +16,18 @@ export default function Login() {
     }
 
     return (
-        
         <div className={styles.container}>
             <div className={styles.wrapper}>
                 <form>
                     <h1>Đăng nhập</h1>
-                    <input type='text' placeholder='Số điện thoại hoặc email' />
-                    <input type='password' placeholder='****************' />
+                    <input type='text' placeholder='Số điện thoại hoặc email' required />
+                    <input type='password' placeholder='Mật khẩu' required />
                     <Link className={styles.forgot_password} to="/quen-mat-khau">Quên mật khẩu?</Link>
                     <br></br>
                     <button className={styles.login_button} type="submit">Đăng nhập</button>
                     <p>
                         Chưa có tài khoản?
-                        <Link to="/dang-ki"> Đăng kí ngay</Link>
+                        <Link className={styles.register} to="/dang-ki"> Đăng kí ngay</Link>
                     </p>
                     <div className={styles.third_party_wrapper}>
                         <OAuth2Login
