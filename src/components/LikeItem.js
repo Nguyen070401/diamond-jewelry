@@ -28,7 +28,7 @@ export default function LikeItem(props) {
     }
   return (
     <>
-        <tr className={props.wrapper}>
+        <tr className={styles.wrapper}>
             <td>
                 <button id='remove-button' onClick={onRemoveButtonClick} className={styles.remove_button} >
                <FontAwesomeIcon icon={faTrash}  />
@@ -38,7 +38,7 @@ export default function LikeItem(props) {
                 <img src={props.image} alt={props.name} />
             </td>
             <td>{props.name}</td>
-            <td className='price'>{formattedPrice}</td>
+            <td className={styles.price}>{formattedPrice}</td>
             <td > {props.added_day}</td>
             <Avail isAvail={props.avail} />
             <td>

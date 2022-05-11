@@ -1,64 +1,55 @@
 button {
-    cursor: pointer;
+	cursor: pointer;
 }
 
-td hr {
-    border: none;
-    border-bottom: 1px solid #707070;
+.wrapper td hr {
+	border: none;
+	border-bottom: 1px solid #707070;
 }
 
 .remove_button {
-    border: none;
-    background-color: white;
-    font-size: 20px;
+	border: none;
+	background-color: white;
+	font-size: 20px;
 }
 
 .price {
-    color: #46CFBE;
+	color: #46cfbe;
 }
 
 .quantity_wrapper input {
-    width: 30px;
-    border-left: none;
-    border-right: none;
-    text-align: center;
+	width: 30px;
+	border-left: none;
+	border-right: none;
+	text-align: center;
 }
 
 .quantity_wrapper button {
-    background-color: white;
+	background-color: white;
 }
 
 .increase_button {
-    border-left: none;
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
+	border-left: none;
+	border-top-right-radius: 28px;
+	border-bottom-right-radius: 28px;
 }
 
 .decrease_button {
-    border-right: none;
-    border-top-left-radius: 28px;
-    border-bottom-left-radius: 28px;
+	border-right: none;
+	border-top-left-radius: 28px;
+	border-bottom-left-radius: 28px;
 }
-
-
-
-
-
-
-
-
-
 
 /* Hide Arrows From Input Number */
 
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 /* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
+input[type="number"] {
+	-moz-appearance: textfield;
 }
