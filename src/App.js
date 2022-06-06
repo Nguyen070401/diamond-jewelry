@@ -6,7 +6,6 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ContactPage from './pages/ContactPage';
 import LikePage from './pages/LikePage';
-import Home from './pages/Home';
 import Product from './pages/Product';
 import GiftPage from './pages/GiftPage';
 import JewelryPage from './pages/JewelryPage';
@@ -27,7 +26,6 @@ function App() {
 				<Route path="/dong-ho" element={<WatchPage />} />
 				<Route path="/qua-tang" element={<GiftPage />} />
 				<Route path="/san-pham" element={<Product />} />
-				<Route path="/home" element={<Home />} />
 			</Routes>
 		</Router>
 	);
